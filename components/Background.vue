@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gradient-to-r from-[#150020] to-[#000046] absolute h-screen w-screen back">
+    <div class="w-screen back">
         <div class="bg-[#3F00C6] opacity-30 fixed rounded-full obj-dril-left animate-pulse"></div>
         <div class="bg-[#6B00C6] opacity-30 fixed rounded-full obj-dril-right animate-pulse"></div>
     </div>
@@ -12,7 +12,7 @@
 
 .obj-dril-left {
   left: -76vw;
-  top: 12vh;
+  bottom: 12vh;
   filter: blur(250px);
   height: 80vh;
   width: 1953px;
@@ -21,7 +21,7 @@
 
 .obj-dril-right {
   right: -76vw;
-  top: 12vh;
+  bottom: 12vh;
   filter: blur(250px);
   height: 80vh;
   width: 1953px;
@@ -29,5 +29,6 @@
 }
 .back {
   z-index: -10;
+  min-height: 100%;
 }
 </style>

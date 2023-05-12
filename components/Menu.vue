@@ -1,14 +1,15 @@
 <template>
     <div class="menu flex flex-row justify-between">
-        <img src="@/assets/images/logo.svg" alt="logo">
-        <div class="text-2xl text-white justify-evenly flex w-8/12 items-center">
+        <img src="@/assets/images/logo.svg" class="w-1/10">
+        <div class="text-xl text-white justify-evenly flex w-7/12 items-center font-lighter">
+            <p>Serviços</p>
+            <p>Clientes</p>
             <p>Sobre Nós</p>
-            <p>Servicos</p>
-            <p>Contato</p>
+            <p>Fale Conosco</p>
+            <button class="btn btn-outline btn-white text-white rounded-full px-10 py-2">
+                Vamos Conversar
+            </button>
         </div>
-        <button class="btn btn-outline btn-white text-white rounded-full px-12 py-2">
-            Vamos Conversar
-        </button>
     </div>
 </template>
 <style>
@@ -17,7 +18,8 @@
 }
 
 .menu p {
-    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-family: 'Satoshi', sans-serif;
     font-weight: 400;
 }
