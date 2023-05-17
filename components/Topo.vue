@@ -1,23 +1,28 @@
 <template>
-  <section class="grid grid-rows-1 grid-flow-col gap-4 items-center w-9/12 mx-auto relative py-10">
-    <div class="">
-      <h1 class="text-7xl text-white font-black mb-8 leading-tight">
-          A parceria ideal para sua expansão digital.
+  <section class="grid grid-cols-3 gap-4 items-center w-5/6 relative py-10 mx-auto lg:pl-12 sm:pl-2">
+    <div class="col-span-2">
+      <h1 class="text-7xl text-white mb-7 leading-tight satoshi-black font-black">
+          A parceria ideal para <br /> sua expansão digital.
       </h1>
       <p class="text-2xl text-white text-left w-11/12 lg:mb-10 mb-4">
-          Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e aumentar a sua presença digital.
+          Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e <br/> aumentar a sua presença digital.
       </p>
       <button class="text-2xl w-2/4 py-3 text-black rounded-full bg-white cta-topo">
         Vamos conversar
       </button>
     </div>
-    <div>
-      <img src="@/assets/images/hero.svg" class="h-full w-full">
+    <div class="relative h-full col-span-1">
+      <img src="@/assets/images/hero.svg" class="absolute hero">
+    </div>
+    <div class="col-span-3 _text-center lg:pt-20 sm:pt-5">
+      <img src="@/assets/images/arrow-down.svg" class="mx-auto"/>
     </div>
   </section>
 </template>
 <style>
-.cta-topo:hover {
-
-}
+  img.hero {
+    min-width: 32rem;
+    top: -6rem;
+    left: -5rem;
+  }
 </style>
