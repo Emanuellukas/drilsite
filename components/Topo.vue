@@ -7,9 +7,7 @@
       <p class="text-2xl text-white text-left w-11/12 lg:mb-10 mb-4">
           Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e <br/> aumentar a sua presença digital.
       </p>
-      <button class="text-2xl w-2/4 py-3 text-black rounded-full bg-white cta-topo">
-        Vamos conversar
-      </button>
+      <ButtonCta text="Vamos conversar" btnClass="text-2xl lg:w-2/4 text-black bg-white normal-case"/>
     </div>
     <div class="relative h-full col-span-1">
       <img src="@/assets/images/hero.svg" class="absolute hero">

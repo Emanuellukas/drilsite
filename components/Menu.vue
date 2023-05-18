@@ -6,9 +6,7 @@
             <p>Clientes</p>
             <p>Sobre Nós</p>
             <p>Fale Conosco</p>
-            <button class="btn btn-outline btn-white text-white rounded-full px-10 py-2">
-                Vamos Conversar
-            </button>
+            <ButtonCta text="Vamos conversar" btnClass="text-2xl px-10 btn-outline text-white normal-case"/>
         </div>
     </div>
 </template>
