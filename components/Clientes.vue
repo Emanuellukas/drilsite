@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white lg:py-24 clientes">
+  <section class="bg-white lg:py-24 clientes relative">
     <div class="custom-container">
       <div class="title lg:mb-20 sm:mb-5">
         <h2 class="text-black text-3xl satoshi-black font-black relative">
@@ -22,7 +22,7 @@
             Estou extremamente satisfeita com os serviços prestados pela DRIL.
             É uma agência extremamente profissional e ofereçem serviços de alta qualidade em criação e gerenciamento de sites. Além disso, sua equipe está sempre disponível para ajudar em qualquer momento, o que nos proporciona uma grande tranquilidade. Eu os recomendo altamente como parceiros de negócios para qualquer empresa que precise de serviços de marketing digital.
           </p>
-          <div class="redes grid grid-cols-4 gap-1 text-black">
+          <div class="redes grid grid-cols-4 gap-1 text-black lg:mb-8">
             <div class="flex items-center">
               <img src="@/assets/images/yt-gradient-icon.svg" class="mr-2">
               <p class="text-xs leading-none">
@@ -42,13 +42,19 @@
               </p>
             </div>
           </div>
+          <div class="">
+            <ButtonCta btnClass="hover:bg-black hover:text-white hover:border-black text-black btn-black w-2/3 btn-outline text-xl font-black border-2 PY-2">
+              Vamos trabalhar juntos
+            </ButtonCta>
+          </div>
         </div>
       </div>
     </div>
+    <img src="@/assets/images/logo-elemento-blue.svg" class="logo">
   </section>
 </template>
 <style>
-.clientes p.depoimento:before {
+  .clientes p.depoimento:before {
     content: '';
     width: 5px;
     height: 100%;
@@ -57,5 +63,12 @@
     left: -1rem;
     top: 0rem;
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
+  }
+
+  .clientes .logo {
+    position: absolute;
+    right: -10rem;
+    top: 30%;
+    transform: rotate(50deg);
   }
 </style>

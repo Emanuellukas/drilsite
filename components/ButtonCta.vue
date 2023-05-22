@@ -1,6 +1,6 @@
 <template>
   <button :class="`btn rounded-full normal-case ${btnClass}`">
-    {{ text }}
+    <slot></slot>
   </button>
 </template>
 <script>

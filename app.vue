@@ -1,10 +1,12 @@
 <template>
   <!-- <Background /> -->
-  <div>
+  <div class="relative" style="z-index: 0">
+    <Background />
     <Menu />
     <Topo />
     <Servicos />
     <Clientes />
+    <Sobre />
   </div>
 </template>
 <style>
@@ -30,23 +32,13 @@
 
   body {
     background: #000000;
+    font-family: "Satoshi";
   }
 
   .satoshi {
-    font-family: SatoshiRegular;
-  }
-  
-  .satoshi-bold {
-    font-family: SatoshiBold;
+    font-family: "Satoshi";
   }
 
-  .satoshi-light {
-    font-family: SatoshiLight;
-  }
-
-  .satoshi-black {
-    font-family: SatoshiBlack;
-  }
 
   .custom-container {
     margin: 0 auto;
