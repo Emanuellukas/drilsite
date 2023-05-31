@@ -1,5 +1,5 @@
 <template>
-  <div class="display-elements back">
+  <div class="display-elements back z-0">
     <div class="left">
       <img src="@/assets/images/logo-elemento-purple.svg" class="animate-spin">
       <div class="gradient-blue-blur"></div>

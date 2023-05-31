@@ -7,7 +7,7 @@
       <p class="text-2xl text-white text-left w-11/12 lg:mb-10 mb-4">
           Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e <br/> aumentar a sua presença digital.
       </p>
-      <ButtonCta btnClass="text-2xl lg:w-2/4 text-black bg-white normal-case">
+      <ButtonCta btnClass="text-2xl text-black bg-white normal-case">
         Vamos conversar
       </ButtonCta>
     </div>

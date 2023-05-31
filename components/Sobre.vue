@@ -1,6 +1,6 @@
 <template>
   <div class="sobre relative">
-    <div class="backdrop">
+    <div class="backdrop absolute -z-10">
       <div class="left">
         <div class="gradient-blue-blur"></div>
         <img src="@/assets/images/logo-elemento-blue.svg" class="logo" />

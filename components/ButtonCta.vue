@@ -1,5 +1,5 @@
 <template>
-  <button :class="`btn rounded-full normal-case ${btnClass}`">
+  <button :class="`rounded-lg normal-case lg:px-6 lg:py-3 satoshi font-bold ${btnClass}`">
     <slot></slot>
   </button>
 </template>

@@ -34,8 +34,8 @@
             <h3 class="text-sm font-bold mb-0 text-white">RESULTADOS REAIS</h3>
           </div>
           <p class="text-white text-lg mb-5">Nós sabemos que cada empresa é única e por isso, traçamos estratégias personalizadas para que a sua alcance resultados incríveis na internet. Nossos serviços são focados em criar uma identidade única com personalidade para a sua marca, desenvolver e otimizar sistemas de alta performance, aumentar sua visibilidade e estabelecer uma comunicação direta e eficaz com o seu cliente ideal.</p>
-          <ButtonCta btnClass="text-2xl text-black bg-white w-full mb-3">
-            Contrate nossos serviços
+          <ButtonCta btnClass="text-2xl text-black bg-white mb-3 lg:w-5/12 w-full">
+            Vamos conversar
           </ButtonCta>
         </div>
       </div>

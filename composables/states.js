@@ -1,0 +1,1 @@
+export const useMenu = () => useState('menu', () => ['Serviços', 'Clientes', 'Sobre Nós', 'Fale Conosco']);

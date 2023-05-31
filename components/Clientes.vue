@@ -43,8 +43,8 @@
             </div>
           </div>
           <div class="">
-            <ButtonCta btnClass="hover:bg-black hover:text-white hover:border-black text-black btn-black w-2/3 btn-outline text-xl font-black border-2 PY-2">
-              Vamos trabalhar juntos
+            <ButtonCta btnClass="hover:bg-black hover:text-white hover:border-black text-black btn-black lg:w-5/12 w-full btn-outline text-xl font-black border-2">
+              Vamos conversar
             </ButtonCta>
           </div>
         </div>
