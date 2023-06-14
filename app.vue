@@ -1,7 +1,6 @@
 <template>
-  <!-- <Background /> -->
   <div class="relative" style="z-index: 0">
-    <Background />
+    <!-- <Background /> -->
     <Menu />
     <Topo />
     <Servicos />
@@ -37,7 +36,7 @@ export default {
   }
 
   body {
-    background: #000000;
+    background: #101010;
     font-family: "Satoshi";
   }
 
@@ -52,17 +51,24 @@ export default {
   }
 
   .title {
-    padding-left: 7rem;
+    display: inline;
+    margin: 0 auto;
+  }
+
+  .title h2 {
+    display: inline;
+    text-align: center;
   }
 
   .title h2:before {
     content: '';
-    width: 5px;
-    height: 2.3rem;
+    display: flex;
+    width: 100%;
+    height: 4px;
     border-radius: 2px;
     position: absolute;
-    left: -1rem;
-    top: 0rem;
+    left: 0;
+    top: -1rem;
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
   }
 </style>

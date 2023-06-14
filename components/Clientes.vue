@@ -1,12 +1,14 @@
 <template>
   <section class="bg-white lg:py-24 clientes relative">
-    <div class="custom-container">
-      <div class="title lg:mb-20 sm:mb-5">
-        <h2 class="text-black text-3xl satoshi-black font-black relative">
-          O que podemos fazer pela sua empresa
-        </h2>
+    <div class="mx-auto container">
+      <div class="w-full text-center">
+        <div class="title">
+          <h2 class="text-gray-800 text-3xl satoshi-black font-black relative">
+            O que nossos clientes dizem sobre nós
+          </h2>
+        </div>
       </div>
-      <div class="w-9/12 mx-auto grid grid-cols-12 gap-5">
+      <div class="w-8/12 mx-auto grid grid-cols-12 gap-5 lg:mt-24">
         <div class="col-span-4">
           <div class="card w-full bg-white shadow-2xl text-center relative">
             <img src="@/assets/images/quote.svg" class="absolute -right-6 -top-6"/>
@@ -42,15 +44,13 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <ButtonCta btnClass="hover:bg-black hover:text-white hover:border-black text-black btn-black lg:w-5/12 w-full btn-outline text-xl font-black border-2">
-              Vamos conversar
-            </ButtonCta>
-          </div>
+          <ButtonCta btnClass="lg:w-9/12 bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
+            Vamos conversar
+          </ButtonCta>
         </div>
       </div>
     </div>
-    <img src="@/assets/images/logo-elemento-blue.svg" class="logo">
+    <!-- <img src="@/assets/images/logo-elemento-blue.svg" class="logo"> -->
   </section>
 </template>
 <style>
