@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white lg:py-24 clientes relative">
+  <section id="clientes" class="bg-white lg:py-24 clientes relative">
     <div class="mx-auto container">
       <div class="w-full text-center">
         <div class="title">
@@ -54,7 +54,7 @@
   </section>
 </template>
 <style>
-  .clientes p.depoimento:before {
+  /*.clientes p.depoimento:before {
     content: '';
     width: 5px;
     height: 100%;
@@ -63,7 +63,7 @@
     left: -1rem;
     top: 0rem;
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
-  }
+  } */
 
   .clientes .logo {
     position: absolute;

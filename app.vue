@@ -1,5 +1,5 @@
 <template>
-  <div class="relative" style="z-index: 0">
+  <div class="relative scroll-smooth" style="z-index: 0">
     <!-- <Background /> -->
     <Menu />
     <Topo />

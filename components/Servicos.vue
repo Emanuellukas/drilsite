@@ -12,7 +12,7 @@
             <img src="@/assets/images/check.svg" class="mr-5"/>
             <h3 class="text-sm font-bold mb-0 text-[#808080]" style="letter-spacing: 1em">RESULTADOS REAIS</h3>
           </div>
-          <p class="text-gray-300 text-lg mb-5">Nós sabemos que cada empresa é única e por isso, traçamos estratégias personalizadas para que a sua alcance resultados incríveis na internet. Nossos serviços são focados em criar uma identidade única com personalidade para a sua marca, desenvolver e otimizar sistemas de alta performance, aumentar sua visibilidade e estabelecer uma comunicação direta e eficaz com o seu cliente ideal.</p>
+          <p class="text-gray-300 text-lg mb-5 lg:mb-10">Nós sabemos que cada empresa é única e por isso, traçamos estratégias personalizadas para que a sua alcance resultados incríveis na internet. Nossos serviços são focados em criar uma identidade única com personalidade para a sua marca, desenvolver e otimizar sistemas de alta performance, aumentar sua visibilidade e estabelecer uma comunicação direta e eficaz com o seu cliente ideal.</p>
         </div>
         <div class="lg:w-7/12 mx-auto text-white text-xl flex mb-5 justify-evenly">
           <div class="flex items-center">

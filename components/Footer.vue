@@ -1,13 +1,13 @@
 <template>
-  <div class="footer text-lg text-white flex flex-col">
+  <footer class="footer text-lg text-white flex flex-col container">
     <img src="@/assets/images/line-vertical.svg" class="w-full mx-auto"/>
-    <div class="flex lg:w-10/12 w-full justify-evenly align-center mx-auto">
+    <div class="flex w-full justify-evenly align-center mx-auto py-4">
       <div class="flex flex-col">
-        <p v-for="(menu, index) in useMenu().value" :key="index">
-          {{menu}}
-        </p>
+        <a :href="'#' + menu.route" class="footer-menu-item relative cursor-pointer" v-for="(menu, index) in useMenu().value" :key="index">
+          {{menu.label}}
+        </a>
       </div>
-      <div class="flex items-center justify-between lg:w-4/12">
+      <div class="flex items-center justify-between lg:w-5/12">
         <div>
           <p class="font-bold mb-4 text-xl">Entre em contato</p>
           <p>Contato via email</p>
@@ -23,16 +23,15 @@
         <img src="@/assets/images/logo-box-vertical.svg" class="w-full"/>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 <style>
-.footer {
+footer {
   padding: 2rem 0;
   margin: 0 auto;
-  max-width: 90vw;
 }
 
-.footer::after {
+footer::after {
   content: '';
   display: block;
   position: absolute;
@@ -42,5 +41,22 @@
   left: 0;
   background: rgb(0,0,255);
   background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(145,13,255,1) 30%);
+}
+
+.footer-menu-item:before {
+  content: '';
+  display: flex;
+  width: 2px;
+  height: 0;
+  border-radius: 2px;
+  position: absolute;
+  top: 0.5rem;
+  left: -.5rem;
+  transition-duration: .3s;
+  background: linear-gradient(254.84deg, #AA00FF 68.96%, #0000FF 115.78%);
+}
+
+.footer-menu-item:hover:before {
+  height: 1rem;
 }
 </style>
