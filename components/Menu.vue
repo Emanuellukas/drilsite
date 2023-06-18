@@ -1,7 +1,7 @@
 <template>
-  <div class="menu flex flex-row justify-between satoshi mx-auto">
+  <div class="menu flex flex-row justify-between satoshi mx-auto lg:py-20 lg:px-12 px-10 py-10">
     <img src="@/assets/images/logo.svg" class="w-1/10">
-    <div class="text-xl text-white justify-evenly flex w-7/12 items-center font-lighter">
+    <div class="text-xl text-white justify-evenly w-7/12 items-center font-lighter hidden md:flex">
       <a :href="'#' + menu.route" class="menu-item cursor-pointer relative" v-for="(menu, index) in useMenu().value" :key="index">{{ menu.label }}</a>
       <ButtonCta btnClass="text-2xl px-10 border text-white normal-case border-white">
         Vamos conversar
@@ -10,10 +10,6 @@
   </div>
 </template>
 <style>
-.menu {
-  padding: 5rem 3rem;
-}
-
 .menu p {
   font-weight: 400;
 }

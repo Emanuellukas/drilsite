@@ -51,7 +51,7 @@ export default {
   }
 
   .title {
-    display: inline;
+    display: inline-flex;
     margin: 0 auto;
   }
 
@@ -68,7 +68,7 @@ export default {
     border-radius: 2px;
     position: absolute;
     left: 0;
-    top: -1rem;
+    top: -.5rem;
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
   }
 </style>

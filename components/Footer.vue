@@ -1,14 +1,14 @@
 <template>
-  <footer class="footer text-lg text-white flex flex-col container">
-    <img src="@/assets/images/line-vertical.svg" class="w-full mx-auto"/>
-    <div class="flex w-full justify-evenly align-center mx-auto py-4">
-      <div class="flex flex-col">
-        <a :href="'#' + menu.route" class="footer-menu-item relative cursor-pointer" v-for="(menu, index) in useMenu().value" :key="index">
+  <footer class="footer text-lg text-white flex flex-col container lg:px-0 px-8">
+    <img src="@/assets/images/line-vertical.svg" class="w-full mx-auto h-8"/>
+    <div class="flex lg:flex-row flex-col w-full justify-evenly align-center mx-auto py-4">
+      <div class="flex flex-col text-center lg:text-left mb-6 lg:mb-0">
+        <a :href="'#' + menu.route" class="footer-menu-item relative cursor-pointer lg:mb-0 mb-2" v-for="(menu, index) in useMenu().value" :key="index">
           {{menu.label}}
         </a>
       </div>
-      <div class="flex items-center justify-between lg:w-5/12">
-        <div>
+      <div class="flex lg:flex-row flex-col items-center justify-between w-full lg:w-5/12 lg:mb-0 mb-8">
+        <div class="lg:mb-0 mb-6">
           <p class="font-bold mb-4 text-xl">Entre em contato</p>
           <p>Contato via email</p>
           <p>Contato via whatsapp</p>
@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="flex items-center">
-        <img src="@/assets/images/logo-box-vertical.svg" class="w-full"/>
+        <img src="@/assets/images/logo-box-vertical.svg" class="lg:w-full w-1/3 mx-auto"/>
       </div>
     </div>
   </footer>

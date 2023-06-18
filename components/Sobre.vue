@@ -1,18 +1,11 @@
 <template>
-  <div id="sobre" class="sobre relative text-center container">
-    <!-- <div class="backdrop absolute -z-10">
-      <div class="left">
-        <div class="gradient-blue-blur"></div>
-        <img src="@/assets/images/logo-elemento-blue.svg" class="logo" />
-      </div>
-      <div class="gradient-purple-blur right"></div>
-    </div> -->
-    <div class="title lg:mb-10 sm:mb-5">
-      <h2 class="text-white text-3xl satoshi-black font-black relative">
+  <div id="sobre" class="sobre relative text-center container lg:py-28 pt-16 pb-2">
+    <div class="title">
+      <h2 class="text-white lg:text-3xl text-2xl satoshi-black font-black relative">
         Profissionais aptos a gerar resultados para seu negócio
       </h2>
     </div>
-    <div class="flex flex-col lg:mt-24">
+    <div class="flex flex-col lg:mt-24 mt-10 mb-8">
       <div class="lg:w-6/12 mx-auto flex flex-col justify-center">
         <div class="flex items-center text-gray-600 mb-3 mx-auto">
           <img src="@/assets/images/check.svg" class="mr-5"/>
@@ -20,7 +13,7 @@
         </div>
         <p class="text-white text-lg mb-5 font-light">Nossa equipe é composta por profissionais altamente capacitados com mais de 14 anos de experiência trabalhando estrategicamente em projeto complexos ao lado de grandes nomes do mercado de marketing digital. Possuimos um histórico de sucesso sempre ajudando a trazer soluções eficazes e inovadoras para a mesa.</p>
       </div>
-      <div class="lg:w-8/12 mx-auto mt-6 grid grid-cols-4 gap-4">
+      <div class="lg:w-8/12 w-full mx-auto mt-6 grid lg:grid-cols-4 grid-cols-2 gap-4">
         <div v-for="(a, index) in equipe" :key="index" class="rounded bg-white shadow-2xl text-center relative">
           <img class="w-full" src="@/assets/images/funcionario.jpg" alt="funcionario" height="179px"/>
           <div class="card-body text-black p-3">
@@ -29,10 +22,11 @@
           </div>
         </div>
       </div>
-      <ButtonCta btnClass="mt-6 mx-auto bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
+      <button-cta btnClass="mt-6 mx-auto bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
         Fale com a nossa equipe
-      </ButtonCta>
+      </button-cta>
     </div>
+    <custom-form />
   </div>
 </template>
 <script>
@@ -52,7 +46,6 @@ export default {
 </script>
 <style>
 .sobre {
-  padding: 7rem 0;
   margin: 0 auto;
   max-width: 90vw;
 }
