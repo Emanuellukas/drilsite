@@ -21,12 +21,10 @@
             <img src="@/assets/images/design-icon.svg" class="setor-icon">
             <span>Design</span>
           </div>
-          <img src="@/assets/images/line.svg" class="mx-10 lg:block hidden"/>
           <div class="flex items-center lg:mb-0 mb-3">
             <img src="@/assets/images/engine-icon.svg" class="setor-icon">
             <span>Desenvolvimento</span>
           </div>
-          <img src="@/assets/images/line.svg" class="mx-10 lg:block hidden"/>
           <div class="flex items-center lg:mb-0 mb-3">
             <img src="@/assets/images/trafego-icon.svg" class="setor-icon">
             <span>Tráfego Pago</span>

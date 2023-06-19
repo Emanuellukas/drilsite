@@ -1,5 +1,5 @@
 <template>
-  <section class="grid lg:grid-cols-3 grid-col-1 gap-0 lg:gap-4 items-center lg:px-0 px-6 lg:w-5/6 w-full relative lg:py-10 mx-auto">
+  <section class="container mx-auto grid lg:grid-cols-3 grid-col-1 gap-0 lg:gap-4 items-center lg:px-0 px-6 lg:w-5/6 w-full relative lg:py-10 mx-auto">
     <div class="lg:col-span-2">
       <h1 class="lg:text-7xl text-5xl text-white mb-7 leading-tight font-black">
           A parceria ideal para <br /> sua expansão digital.

@@ -8,6 +8,9 @@
       <input type="email" placeholder="E-mail" class="bg-gray-200 px-2 py-3 rounded-md placeholder:text-gray-400">
       <input type="text" placeholder="Empresa" class="bg-gray-200 px-2 py-3 rounded-md placeholder:text-gray-400">
       <textarea class="lg:col-span-2 bg-gray-200 p-3 rounded-md" name="objetivo" placeholder="Objetivo de marketing" rows="10"></textarea>
+      <button-cta btnClass="mt-6 col-span-2 mx-auto bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
+        Enviar formulário
+      </button-cta>
     </form>
   </div>
 </template>

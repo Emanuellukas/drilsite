@@ -10,13 +10,25 @@
       <div class="flex lg:flex-row flex-col items-center justify-between w-full lg:w-5/12 lg:mb-0 mb-8">
         <div class="lg:mb-0 mb-6">
           <p class="font-bold mb-4 text-xl">Entre em contato</p>
-          <p>Contato via email</p>
-          <p>Contato via whatsapp</p>
+          <a target="_blank" href="mailto: agenciadril@gmail.com">
+            <img src="@/assets/images/email.svg">
+            Contato via email
+          </a>
+          <a target="_blank" href="https://whatsa.me/5561994455643/?t=Teste%20de%20mensagem">
+            <img src="@/assets/images/whatsapp.svg">
+            Contato via whatsapp
+          </a>
         </div>
         <div>
           <p class="font-bold mb-4 text-xl">Nos acompanhe nas redes</p>
-          <p>Instagram</p>
-          <p>LinkedIn</p>
+          <a target="_blank" href="https://www.instagram.com/agenciadril/">
+            <img src="@/assets/images/instagram.svg">
+            Instagram
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/company/agenciadril/">
+            <img src="@/assets/images/linkedin.svg">
+            LinkedIn
+          </a>
         </div>
       </div>
       <div class="flex items-center">
@@ -58,5 +70,13 @@ footer::after {
 
 .footer-menu-item:hover:before {
   height: 1rem;
+}
+
+footer a {
+  display: flex;
+}
+
+footer a img {
+  margin-right: 1rem;
 }
 </style>

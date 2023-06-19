@@ -5,7 +5,7 @@
         Profissionais aptos a gerar resultados para seu negócio
       </h2>
     </div>
-    <div class="flex flex-col lg:mt-24 mt-10 mb-8">
+    <div class="flex flex-col lg:mt-24 mt-10 lg:mb-28 mb-8">
       <div class="lg:w-6/12 mx-auto flex flex-col justify-center">
         <div class="flex items-center text-gray-600 mb-3 mx-auto">
           <img src="@/assets/images/check.svg" class="mr-5"/>
@@ -47,7 +47,6 @@ export default {
 <style>
 .sobre {
   margin: 0 auto;
-  max-width: 90vw;
 }
 
 .sobre .logo {
