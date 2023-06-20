@@ -7,7 +7,7 @@
           {{menu.label}}
         </a>
       </div>
-      <div class="flex lg:flex-row flex-col items-center justify-between w-full lg:w-5/12 lg:mb-0 mb-8">
+      <div class="flex lg:flex-row flex-col lg:items-center items-startd justify-between w-full lg:w-5/12 lg:mb-0 mb-8">
         <div class="lg:mb-0 mb-6">
           <p class="font-bold mb-4 text-xl">Entre em contato</p>
           <a target="_blank" href="mailto: agenciadril@gmail.com">

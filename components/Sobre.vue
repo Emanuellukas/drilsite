@@ -1,5 +1,5 @@
 <template>
-  <div id="sobre" class="sobre relative text-center container lg:py-28 pt-16 pb-2">
+  <div id="sobre" class="sobre lg:px-0 px-5 relative text-center container lg:py-28 pt-16 pb-2">
     <div class="title">
       <h2 class="text-white lg:text-3xl text-2xl satoshi-black font-black relative">
         Profissionais aptos a gerar resultados para seu negócio

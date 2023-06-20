@@ -10,10 +10,10 @@
       </div>
       <div class="lg:w-8/12 w-10/12 mx-auto grid lg:grid-cols-12 grid-cols-1 gap-5 lg:mt-24">
         <div class="lg:col-span-4">
-          <div class="card w-full bg-white shadow-2xl text-center relative">
+          <div class="w-full bg-white shadow shadow-2xl text-center relative">
             <img src="@/assets/images/quote.svg" class="absolute -right-6 -top-6"/>
             <figure><img class="w-full" src="@/assets/images/catia.jpg" alt="Cátia Damasceno" /></figure>
-            <div class="card-body text-black p-3 shadow shadow-xl rounded-b-lg">
+            <div class="card-body text-black p-3 rounded-b-lg">
               <h6 class="text-xl font-black satoshi-black -mb-2">Cátia Damasceno</h6>
               <span class="text-sm satoshi font-normal">Influencer Digital</span>
             </div>
@@ -44,9 +44,11 @@
               </p>
             </div>
           </div>
-          <ButtonCta btnClass="lg:w-9/12 w-full bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
-            Vamos conversar
-          </ButtonCta>
+          <a href="#form">
+            <ButtonCta btnClass="lg:w-9/12 w-full bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
+              Vamos conversar
+            </ButtonCta>
+          </a>
         </div>
       </div>
     </div>

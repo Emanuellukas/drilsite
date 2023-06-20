@@ -7,9 +7,11 @@
       <p class="lg:text-2xl text-xl text-white lg:text-left text-center w-full lg:w-11/12 lg:mb-10 mb-3">
           Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e <br/> aumentar a sua presença digital.
       </p>
-      <ButtonCta btnClass="bg-[#8A00FF] md:w-1/3 w-full lg:my-0 my-8 text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
-        Vamos conversar
-      </ButtonCta>
+      <a href="#form">
+        <ButtonCta btnClass="bg-[#8A00FF] md:w-1/3 w-full lg:my-0 my-8 text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
+          Vamos conversar
+        </ButtonCta>
+      </a>
     </div>
     <div class="relative h-full col-span-1 hidden lg:block">
       <img src="@/assets/images/hero.svg" class="absolute hero">

@@ -1,5 +1,8 @@
 <template>
   <div class="relative scroll-smooth" style="z-index: 0">
+    <div class="whatsapp-cta">
+      
+    </div>
     <!-- <Background /> -->
     <Menu />
     <Topo />
