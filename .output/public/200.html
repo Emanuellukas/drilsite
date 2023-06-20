@@ -1,31 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <link rel="prefetch" href="/sw.js">
-  <link rel="prefetch" href="/server/index.mjs">
-  
-<script>
-async function register () {
-  const registration = await navigator.serviceWorker.register('/sw.js')
-  await navigator.serviceWorker.ready
-  registration.active.addEventListener('statechange', (event) => {
-    if (event.target.state === 'activated') {
-      window.location.reload()
-    }
-  })
-}
-if ('serviceWorker' in navigator) {
-  if (location.hostname !== 'localhost' && location.protocol === 'http:') {
-    location.replace(location.href.replace('http://', 'https://'))
-  } else {
-    register()
-  }
-}
-</script>
-
-</head>
-<body>
-  Initializing nitro service worker...
-</body>
+<html >
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/entry.ca717c87.js"><link rel="preload" as="style" href="/_nuxt/entry.28d7f69b.css"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/logo.8d049ac6.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/hero.dea8fc3e.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/arrow-down.08595489.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/design-icon.852cdcd0.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/engine-icon.639ac990.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/trafego-icon.ae30ff8e.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/check.520dcb90.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/quote.73fd6c3a.svg"><link rel="prefetch" as="image" type="image/jpeg" href="/_nuxt/catia.453a3f93.jpg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/yt-gradient-icon.326a9d5d.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/ig-gradient-icon.cc5c68b7.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/tk-gradient-icon.9fee7e70.svg"><link rel="prefetch" as="image" type="image/jpeg" href="/_nuxt/funcionario.0b815caa.jpg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/line-vertical.c8111f13.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/email.32522e08.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/whatsapp.563fb4f5.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/instagram.ebb16d8a.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/linkedin.9e8b5342.svg"><link rel="prefetch" as="image" type="image/svg+xml" href="/_nuxt/logo-box-vertical.f2a3a9b9.svg"><link rel="prefetch" as="script" crossorigin href="/_nuxt/error-component.0a4f0310.js"><link rel="stylesheet" href="/_nuxt/entry.28d7f69b.css"></head>
+<body ><div id="__nuxt"></div><script type="application/json" id="__NUXT_DATA__" data-ssr="false">[{"_errors":1,"serverRendered":2,"data":3,"state":4},{},false,{},{}]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{},app:{baseURL:"/",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script><script type="module" src="/_nuxt/entry.ca717c87.js" crossorigin></script></body>
 </html>
