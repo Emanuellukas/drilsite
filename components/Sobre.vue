@@ -14,9 +14,10 @@
         <p class="text-white text-lg mb-5 font-light">Nossa equipe é composta por profissionais altamente capacitados com mais de 14 anos de experiência trabalhando estrategicamente em projeto complexos ao lado de grandes nomes do mercado de marketing digital. Possuimos um histórico de sucesso sempre ajudando a trazer soluções eficazes e inovadoras para a mesa.</p>
       </div>
       <div class="lg:w-8/12 w-full mx-auto mt-6 grid lg:grid-cols-4 grid-cols-2 gap-4">
-        <div v-for="(a, index) in equipe" :key="index" class="rounded bg-white shadow-2xl text-center relative">
-          <img class="w-full" src="@/assets/images/funcionario.jpg" alt="funcionario" height="179px"/>
-          <div class="card-body text-black p-3">
+        <div v-for="(a, index) in equipe" :key="index" class="rounded-lg flex flex-col justify-end items-center bg-gradient-to-b from-[#A6A6A6] to-[#5A5A5A] shadow-2xl text-center h-[244px]">
+       
+          <img :src="'/'+a.img" alt="funcionario" class="h-[154px]"/>
+          <div class="card-body rounded-b-lg w-full text-black p-3  bg-white">
             <h6 class="text-xl font-black satoshi-black -mb-2">{{ a.name }}</h6>
             <span class="text-sm satoshi font-normal">{{ a.func }}</span>
           </div>
@@ -35,10 +36,10 @@ export default {
   data() {
     return {
       equipe: [
-        { name: "Douglas Matos", func: "Desenvolvedor"},
-        { name: "Ricardo Schmidt", func: "Diretor de Arte"},
-        { name: "Iury Toledo", func: "Gestor de Tráfego"},
-        { name: "Lucas Emanuel", func: "Desenvolvedor"},
+        { name: "Douglas Matos", func: "Desenvolvedor", img: "douglas_OK.png"},
+        { name: "Ricardo Schmidt", func: "Diretor de Arte", img: "ricardo_OK.png"},
+        { name: "Iury Toledo", func: "Gestor de Tráfego", img: "Iury_OK.png"},
+        { name: "Lucas Emanuel", func: "Desenvolvedor", img: "lucas_OK.png"},
       ]
     }
   }
