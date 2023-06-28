@@ -1,7 +1,7 @@
 <template>
   <div id="sobre" class="sobre lg:px-0 px-5 relative text-center container lg:py-28 pt-16 pb-2">
     <div class="title">
-      <h2 class="text-white lg:text-3xl text-2xl satoshi-black font-black relative">
+      <h2 class="text-white lg:text-3xl md:text-2xl  satoshi-black font-black relative">
         Profissionais aptos a gerar resultados para seu negócio
       </h2>
     </div>
@@ -14,16 +14,16 @@
         <p class="text-white text-lg mb-5 font-light">Nossa equipe é composta por profissionais altamente capacitados com mais de 14 anos de experiência trabalhando estrategicamente em projeto complexos ao lado de grandes nomes do mercado de marketing digital. Possuimos um histórico de sucesso sempre ajudando a trazer soluções eficazes e inovadoras para a mesa.</p>
       </div>
       <div class="lg:w-8/12 w-full mx-auto mt-6 grid lg:grid-cols-4 grid-cols-2 gap-4">
-        <div v-for="(a, index) in equipe" :key="index" class="rounded-lg flex flex-col justify-end items-center bg-gradient-to-b from-[#A6A6A6] to-[#5A5A5A] shadow-2xl text-center h-[244px]">
+        <div v-for="(a, index) in equipe" :key="index" class="rounded-lg flex flex-col justify-end items-center bg-gradient-to-b from-[#A6A6A6] to-[#5A5A5A] shadow-2xl text-center h-[200px] md:h-[244px]">
        
-          <img :src="'/'+a.img" alt="funcionario" class="h-[154px]"/>
-          <div class="card-body rounded-b-lg w-full text-black p-3  bg-white">
-            <h6 class="text-xl font-black satoshi-black -mb-2">{{ a.name }}</h6>
-            <span class="text-sm satoshi font-normal">{{ a.func }}</span>
+          <img :src="'/'+a.img" alt="funcionario" class=" md:h-[154px] h-[130px]"/>
+          <div class="card-body rounded-b-lg w-full text-black p-1 md:p-3  bg-white">
+            <h6 class="text-[14px] md:text-xl font-black satoshi-black ">{{ a.name }}</h6>
+            <span class="text-[12px] md:text-sm satoshi font-normal">{{ a.func }}</span>
           </div>
         </div>
       </div>
-      <button-cta btnClass="mt-6 mx-auto bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
+      <button-cta btnClass="mt-6 mx-auto bg-[#8A00FF] text-lg md:text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
         Fale com a nossa equipe
       </button-cta>
     </div>

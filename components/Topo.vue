@@ -1,14 +1,14 @@
 <template>
   <section class="container mx-auto grid lg:grid-cols-3 grid-col-1 gap-0 lg:gap-4 items-center lg:px-0 px-6 lg:w-5/6 w-full relative lg:py-10 mx-auto">
     <div class="lg:col-span-2">
-      <h1 class="lg:text-7xl text-5xl text-white mb-7 leading-tight font-black">
-          A parceria ideal para <br /> sua expansão digital.
+      <h1 class="lg:text-7xl md:text-5xl md:text-left text-white mb-7 leading-tight font-black md:w-10/12 text-center text-[40px] md:p-0 px-4">
+          A parceria ideal para  sua expansão digital.
       </h1>
-      <p class="lg:text-2xl text-xl text-white lg:text-left text-center w-full lg:w-11/12 lg:mb-10 mb-3">
-          Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e <br/> aumentar a sua presença digital.
+      <p class="lg:text-2xl md:text-xl text-[18px] text-white lg:text-left text-center w-full lg:w-8/12 lg:mb-10 mb-3">
+          Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e aumentar a sua presença digital.
       </p>
       <a href="#form">
-        <ButtonCta btnClass="bg-[#8A00FF] md:w-1/3 w-full lg:my-0 my-8 text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
+        <ButtonCta btnClass="bg-[#8A00FF] md:w-1/3 w-full lg:my-0 my-8 md:text-2xl text-[24px] text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
           Vamos conversar
         </ButtonCta>
       </a>

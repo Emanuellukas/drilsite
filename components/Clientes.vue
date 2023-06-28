@@ -2,9 +2,9 @@
   <section id="clientes" class="bg-white lg:py-24 py-10 clientes relative">
     <div class="mx-auto container">
       <div class="w-full text-center lg:mb-0 mb-14">
-        <div class="title">
-          <h2 class="text-gray-800 lg:text-3xl text-2xl satoshi-black font-black relative">
-            O que nossos <br class="lg:hidden block"/> clientes dizem sobre nós
+        <div class="title flex justify-center">
+          <h2 class="text-gray-800 lg:text-3xl text-2xl satoshi-black font-black relative w-8/12">
+            O que nossos clientes dizem sobre nós
           </h2>
         </div>
       </div>

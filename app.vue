@@ -19,23 +19,27 @@ export default {
 </script>
 <style>
   @font-face {
-      font-family: "SatoshiRegular";
-      src: url(../assets/fonts/Satoshi-Regular.otf);
+      font-family: "Satoshi";
+      src: url(./public/fonts/Satoshi-Regular.otf) format("truetype");
+      font-weight: 400;
   }
 
   @font-face {
-      font-family: SatoshiBold;
-      src: url(../assets/fonts/Satoshi-Bold.otf);
+      font-family: "Satoshi";
+      src: url(./public/fonts/Satoshi-Bold.otf) format("truetype");
+      font-weight: 600;
   }
 
   @font-face {
-      font-family: SatoshiLight;
-      src: url(../assets/fonts/Satoshi-Light.otf);
+      font-family: "Satoshi";
+      src: url(./public/fonts/Satoshi-Light.otf) format("truetype");
+      font-weight: 300;
   }
 
   @font-face {
-      font-family: SatoshiBlack;
-      src: url(../assets/fonts/Satoshi-Black.otf);
+      font-family: "Satoshi";
+      src: url(./public/fonts/Satoshi-Black.otf) format("truetype");
+      font-weight: 800;
   }
 
   body {
