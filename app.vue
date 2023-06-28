@@ -1,9 +1,5 @@
 <template>
   <div class="relative scroll-smooth" style="z-index: 0">
-    <div class="whatsapp-cta">
-      
-    </div>
-    <!-- <Background /> -->
     <Menu />
     <Topo />
     <Servicos />
@@ -15,6 +11,20 @@
 <script>
 export default {
   name: 'App', 
+  head() {
+    return {
+      title: 'DRIL',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'drilmarketing',
+          name: 'Agência DRIL',
+          content: 'A parceria ideal para sua expansão digital.'
+        }
+      ]
+    }
+  },
+  scrollToTop: true
 }
 </script>
 <style>
@@ -77,5 +87,12 @@ export default {
     left: 0;
     top: -.5rem;
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
+  }
+
+  @media (max-width: 600px) {
+    .title h2:before {
+      left: 27%;
+      width: 110px;
+    }
   }
 </style>

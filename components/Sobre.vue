@@ -1,21 +1,20 @@
 <template>
-  <div id="sobre" class="sobre lg:px-0 px-5 relative text-center container lg:py-28 pt-16 pb-2">
+  <div id="sobre" class="sobre lg:px-0 px-5 relative text-center container lg:py-28 lg:pb-0 pt-16 pb-2">
     <div class="title">
-      <h2 class="text-white lg:text-3xl md:text-2xl  satoshi-black font-black relative">
-        Profissionais aptos a gerar resultados para seu negócio
+      <h2 class="text-white lg:text-3xl text-2xl  satoshi-black font-black relative">
+        Profissionais aptos a <br class="lg:hidden block"/> gerar resultados para <br class="lg:hidden block"/> o seu negócio
       </h2>
     </div>
     <div class="flex flex-col lg:mt-24 mt-10 lg:mb-28 mb-8">
       <div class="lg:w-6/12 mx-auto flex flex-col justify-center">
-        <div class="flex items-center text-gray-600 mb-3 mx-auto">
-          <img src="@/assets/images/check.svg" class="mr-5"/>
-          <h3 class="text-sm font-bold mb-0 text-[#808080]" style="letter-spacing: .8em">PROFISSIONAIS CAPACITADOS</h3>
+        <div class="flex items-center text-gray-600 mb-3 mx-auto w-full">
+          <img src="@/assets/images/check.svg" class="ml-auto mr-3"/>
+          <h3 class="text-[11px] md:text-sm font-bold mb-0 text-[#808080] md:tracking-[1em] tracking-[0em] mr-auto" style="letter-spacing: .5em">PROFISSIONAIS CAPACITADOS</h3>
         </div>
-        <p class="text-white text-lg mb-5 font-light">Nossa equipe é composta por profissionais altamente capacitados com mais de 14 anos de experiência trabalhando estrategicamente em projeto complexos ao lado de grandes nomes do mercado de marketing digital. Possuimos um histórico de sucesso sempre ajudando a trazer soluções eficazes e inovadoras para a mesa.</p>
+        <p class="text-justify text-white text-[14px] md:text-lg mb-5 lg:mb-10">Nossa equipe é composta por profissionais altamente capacitados com mais de 14 anos de experiência trabalhando estrategicamente em projeto complexos ao lado de grandes nomes do mercado de marketing digital. Possuimos um histórico de sucesso sempre ajudando a trazer soluções eficazes e inovadoras para a mesa.</p>
       </div>
       <div class="lg:w-8/12 w-full mx-auto mt-6 grid lg:grid-cols-4 grid-cols-2 gap-4">
         <div v-for="(a, index) in equipe" :key="index" class="rounded-lg flex flex-col justify-end items-center bg-gradient-to-b from-[#A6A6A6] to-[#5A5A5A] shadow-2xl text-center h-[200px] md:h-[244px]">
-       
           <img :src="'/'+a.img" alt="funcionario" class=" md:h-[154px] h-[130px]"/>
           <div class="card-body rounded-b-lg w-full text-black p-1 md:p-3  bg-white">
             <h6 class="text-[14px] md:text-xl font-black satoshi-black ">{{ a.name }}</h6>

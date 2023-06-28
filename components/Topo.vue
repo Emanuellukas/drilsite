@@ -13,8 +13,9 @@
         </ButtonCta>
       </a>
     </div>
-    <div class="relative h-full col-span-1 hidden lg:block">
-      <img src="@/assets/images/hero.svg" class="absolute hero">
+    <div class="relative h-full lg:col-span-1 lg:block">
+      <img src="@/assets/images/hero.svg" class="absolute hero hidden lg:flex">
+      <!-- <img src="@/assets/images/hero.svg" class="lg:hidden"> -->
     </div>
     <div class="col-span-3 _text-center lg:pt-20 sm:pt-5">
       <img src="@/assets/images/arrow-down.svg" class="mx-auto cursor-pointer"/>

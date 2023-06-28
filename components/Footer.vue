@@ -2,7 +2,7 @@
   <footer class="footer text-lg text-white flex flex-col container lg:px-0 px-8">
     <img src="@/assets/images/line-vertical.svg" class="w-full mx-auto h-8"/>
     <div class="flex lg:flex-row flex-col w-full justify-evenly align-center mx-auto py-4">
-      <div class="flex flex-col text-center lg:text-left mb-6 lg:mb-0">
+      <div class="flex lg:flex-col justify-between lg:text-lg text-sm text-center lg:text-left mb-6 lg:mb-0">
         <a :href="'#' + menu.route" class="footer-menu-item relative cursor-pointer lg:mb-0 mb-2" v-for="(menu, index) in useMenu().value" :key="index">
           {{menu.label}}
         </a>

@@ -3,15 +3,15 @@
     <div class="mx-auto container">
       <div class="w-full text-center lg:mb-0 mb-14">
         <div class="title flex justify-center">
-          <h2 class="text-gray-800 lg:text-3xl text-2xl satoshi-black font-black relative w-8/12">
+          <h2 class="text-gray-800 lg:text-3xl text-2xl satoshi-black font-black relative lg:w-full w-8/12">
             O que nossos clientes dizem sobre nós
           </h2>
         </div>
       </div>
-      <div class="lg:w-8/12 w-10/12 mx-auto grid lg:grid-cols-12 grid-cols-1 gap-5 lg:mt-24">
+      <div class="lg:w-8/12 w-11/12 mx-auto grid lg:grid-cols-12 grid-cols-1 gap-5 lg:mt-24">
         <div class="lg:col-span-4">
-          <div class="w-full bg-white shadow shadow-2xl text-center relative">
-            <img src="@/assets/images/quote.svg" class="absolute -right-6 -top-6"/>
+          <div class="w-full bg-white shadow shadow-2xl rounded-b-lg text-center relative">
+            <img src="@/assets/images/quote.svg" class="absolute lg:-right-6 -right-3 -top-6"/>
             <figure><img class="w-full" src="@/assets/images/catia.jpg" alt="Cátia Damasceno" /></figure>
             <div class="card-body text-black p-3 rounded-b-lg">
               <h6 class="text-xl font-black satoshi-black -mb-2">Cátia Damasceno</h6>

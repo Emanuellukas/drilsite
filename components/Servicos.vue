@@ -1,7 +1,10 @@
 <template>
   <div class="servicos text-center container lg:pt-28 lg:pb-40 pt-20 pb-20 lg:px-0 px-4" id="servicos">
+    <!-- <div class="background">
+      <img src="@/assets/images/logo-elemento-gray.png" class=""/>
+    </div> -->
     <div class="title flex justify-center">
-      <h2 class="text-white lg:text-3xl text-2xl satoshi-black font-black relative w-8/12">
+      <h2 class="text-white lg:text-3xl text-2xl satoshi-black font-black relative lg:w-full w-8/12">
         O que podemos fazer pela sua empresa
       </h2>
     </div>
@@ -80,5 +83,16 @@
   border-right: 1px solid;
   border: 1px solid;
   background: radial-gradient(100% 883599.95% at 100% 0%, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.06%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+
+.background {
+  border-radius: 642px;
+  background: #303030;
+  filter: blur(250px);
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: -23%;
+  transition-duration: .3s;
 }
 </style>
