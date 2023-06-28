@@ -10,15 +10,13 @@
     <button class="py-1 px-2 lg:hidden" @click="handleMenuClick()">
       <img src="@/assets/images/menu.svg" alt="Menu icon">
     </button>
-    <dialog id="sidemenu" class="mr-0 min-h-screen my-0 bg-[#161616] lg:hidden p-6">
-      <div class="text-xl flex flex-col text-white justify-between h-max w-full font-lighter text-right">
-        <div class="flex flex-col">
-          <a :href="'#' + menu.route" class="menu-item cursor-pointer relative mb-4" v-for="(menu, index) in useMenu().value" :key="index">{{ menu.label }}</a>
-        </div>
-        <ButtonCta btnClass="text-xl px-2 border text-white normal-case border-white">
-          Vamos conversar
-        </ButtonCta>
+    <dialog id="sidemenu" class="mr-0 min-h-screen my-0 bg-[#161616] lg:hidden p-6 text-xl flex-col text-white justify-between font-lighter text-right">
+      <div class="flex flex-col">
+        <a :href="'#' + menu.route" class="menu-item cursor-pointer relative mb-4" v-for="(menu, index) in useMenu().value" :key="index">{{ menu.label }}</a>
       </div>
+      <ButtonCta btnClass="text-xl px-2 border text-white normal-case border-white">
+        Vamos conversar
+      </ButtonCta>
     </dialog>
   </div>
 </template>
@@ -72,5 +70,9 @@ background: rgba(255, 255, 255, 0.19);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5.9px);
 -webkit-backdrop-filter: blur(5.9px);
+}
+
+#sidemenu[open] {
+  display: flex !important;
 }
 </style>
