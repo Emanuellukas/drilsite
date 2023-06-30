@@ -2,37 +2,39 @@
   <footer class="footer text-lg text-white flex flex-col container lg:px-0 px-8">
     <img src="@/assets/images/line-vertical.svg" class="w-full mx-auto h-8"/>
     <div class="flex lg:flex-row flex-col w-full justify-evenly align-center mx-auto py-4">
-      <div class="flex lg:flex-col justify-between lg:text-lg text-sm text-center lg:text-left mb-6 lg:mb-0">
-        <a :href="'#' + menu.route" class="footer-menu-item relative cursor-pointer lg:mb-0 mb-2" v-for="(menu, index) in useMenu().value" :key="index">
+      <div class="flex flex-col justify-between lg:text-lg lg:text-left mb-6 lg:mb-0">
+        <a :href="'#' + menu.route" class="footer-menu-item text-xl font-bold self-end lg:self-start relative cursor-pointer lg:mb-1 mb-3" v-for="(menu, index) in useMenu().value" :key="index">
           {{menu.label}}
         </a>
       </div>
-      <div class="flex lg:flex-row flex-col lg:items-center items-startd justify-between w-full lg:w-5/12 lg:mb-0 mb-8">
+      <div class="flex lg:flex-row flex-col lg:items-center lg:text-center items-end text-right justify-between w-full lg:w-5/12 lg:mb-0 mb-8">
         <div class="lg:mb-0 mb-6">
-          <p class="font-bold mb-4 text-xl">Entre em contato</p>
-          <a target="_blank" href="mailto: agenciadril@gmail.com">
+          <p class="font-bold mb-4 lg:text-2xl text-3xl">Entre em contato</p>
+          <a target="_blank" class="link" href="mailto: agenciadril@gmail.com">
             <img src="@/assets/images/email.svg">
             Contato via email
           </a>
-          <a target="_blank" href="https://whatsa.me/5561994455643/?t=Teste%20de%20mensagem">
+          <a target="_blank" class="link" href="https://whatsa.me/5561994455643/?t=Teste%20de%20mensagem">
             <img src="@/assets/images/whatsapp.svg">
             Contato via whatsapp
           </a>
         </div>
         <div>
-          <p class="font-bold mb-4 text-xl">Nos acompanhe nas redes</p>
-          <a target="_blank" href="https://www.instagram.com/agenciadril/">
+          <p class="font-bold mb-4 lg:text-2xl text-3xl">Siga-me os bons</p>
+          <a target="_blank" class="link" href="https://www.instagram.com/agenciadril/">
             <img src="@/assets/images/instagram.svg">
             Instagram
           </a>
-          <a target="_blank" href="https://www.linkedin.com/company/agenciadril/">
+          <a target="_blank" class="link" href="https://www.linkedin.com/company/agenciadril/">
             <img src="@/assets/images/linkedin.svg">
             LinkedIn
           </a>
         </div>
       </div>
-      <div class="flex items-center">
-        <img src="@/assets/images/logo-box-vertical.svg" class="lg:w-full w-1/3 mx-auto"/>
+      <div class="flex items-center justify-end">
+        <a target="_blank" href="https://www.instagram.com/agenciadril/">
+          <img src="@/assets/images/logo-box-vertical.svg" class="w-full mx-auto"/>
+        </a>
       </div>
     </div>
   </footer>
@@ -77,6 +79,16 @@ footer a {
 }
 
 footer a img {
-  margin-right: 1rem;
+  margin: 0 1rem 0 0;
+}
+
+@media (max-width: 600px) {
+  footer .link {
+    justify-content: end;
+    flex-direction: row-reverse;
+  }
+  footer .link img {
+    margin: 0 0 0 1rem;
+  }
 }
 </style>

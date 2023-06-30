@@ -1,12 +1,12 @@
 <template>
-  <div class="card bg-white rounded-md">
-    <div class="flex p-3">
-      <img src="@/assets/images/design-icon.svg" v-show="data.icons.includes('dg')">
-      <img src="@/assets/images/engine-icon.svg" v-show="data.icons.includes('ds')">
-      <img src="@/assets/images/trafego-icon.svg" v-show="data.icons.includes('tr')">
+  <div class="card bg-white rounded-md flex flex-col relative justify-center">
+    <div class="absolute top-0 left-0 p-3 flex">
+      <img src="@/assets/images/design-purple-icon.svg" v-show="data.icons.includes('dg')">
+      <img src="@/assets/images/engine-purple-icon.svg" v-show="data.icons.includes('ds')">
+      <img src="@/assets/images/trafego-purple-icon.svg" v-show="data.icons.includes('tr')">
     </div>
     <div class="card-body p-2 text-center flex">
-      <p class="text-black mx-auto my-auto text-base font-bold flex leading-tight mb-2" v-html="data.title"/>
+      <p class="mx-auto my-auto lg:text-base text-sm font-medium flex leading-tight" v-html="data.title"/>
     </div>
   </div>
 </template>

@@ -9,7 +9,7 @@
   </div>
 </template>
 <script>
-export default {
+export default defineNuxtComponent({
   name: 'App', 
   head() {
     return {
@@ -25,7 +25,7 @@ export default {
     }
   },
   scrollToTop: true
-}
+})
 </script>
 <style>
   @font-face {
@@ -37,7 +37,7 @@ export default {
   @font-face {
       font-family: "Satoshi";
       src: url(./public/fonts/Satoshi-Bold.otf) format("truetype");
-      font-weight: 600;
+      font-weight: 700;
   }
 
   @font-face {
@@ -50,6 +50,12 @@ export default {
       font-family: "Satoshi";
       src: url(./public/fonts/Satoshi-Black.otf) format("truetype");
       font-weight: 800;
+  }
+
+  @font-face {
+      font-family: "Satoshi";
+      src: url(./public/fonts/Satoshi-Medium.otf) format("truetype");
+      font-weight: 500;
   }
 
   body {
@@ -67,20 +73,15 @@ export default {
     max-width: 90vw;
   }
 
-  .title {
-    display: inline-flex;
-    margin: 0 auto;
-  }
-
   .title h2 {
     display: inline;
-    text-align: center;
+    text-align: left;
   }
 
   .title h2:before {
     content: '';
     display: flex;
-    width: 100%;
+    width: 220px;
     height: 4px;
     border-radius: 2px;
     position: absolute;
@@ -89,10 +90,18 @@ export default {
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 890px) {
     .title h2:before {
-      left: 27%;
+      left: 34%;
       width: 110px;
+    }
+
+    .leading-11 {
+      line-height: 48px;
+    }
+
+    .title h2 {
+      text-align: center;
     }
   }
 </style>
