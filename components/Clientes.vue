@@ -2,8 +2,8 @@
   <section id="clientes" class="bg-white lg:py-24 py-10 clientes relative">
     <div class="mx-auto container">
       <div class="w-full text-center lg:mb-0 mb-14">
-        <div class="flex justify-center">
-          <h2 class="text-gray-800 lg:text-3xl text-2xl satoshi-black font-black relative lg:w-full w-8/12">
+        <div class="flex justify-center relative">
+          <h2 class="title-client text-gray-800 lg:text-3xl text-2xl satoshi-black font-black relative lg:w-full w-8/12">
             O que nossos clientes dizem sobre nós
           </h2>
         </div>
@@ -21,7 +21,7 @@
         </div>
         <div class="lg:col-span-7 lg:col-start-6">
           <p class="depoimento text-xl text-black font-normal mb-4 relative">
-            Estou extremamente satisfeita com os serviços prestados pela DRIL.
+            Estou muito satisfeita com os serviços prestados pela DRIL.
             É uma agência extremamente profissional e ofereçem serviços de alta qualidade em criação e gerenciamento de sites. Além disso, sua equipe está sempre disponível para ajudar em qualquer momento, o que nos proporciona uma grande tranquilidade. Eu os recomendo altamente como parceiros de negócios para qualquer empresa que precise de serviços de marketing digital.
           </p>
           <div class="redes grid lg:grid-cols-4 grid-cols-3 gap-1 text-black mb-8">
@@ -72,5 +72,23 @@
     right: -10rem;
     top: 30%;
     transform: rotate(50deg);
+  }
+
+  .title-client::before {
+    content: '';
+    position: absolute;
+    width: 20vw;
+    height: 4px;
+    top: -0.8rem;
+    border-radius: 15px;
+    left: 40vw;
+    background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
+  }
+
+  @media (max-width: 700px) {
+    .title-client::before {
+      width: 24vw;
+      left: 22vw;
+    }
   }
 </style>

@@ -15,7 +15,7 @@
           <h3 class="text-[11px] md:text-sm font-bold mb-0 text-[#808080] md:tracking-[1em] tracking-[0.5em]">RESULTADOS REAIS</h3>
         </div>
         <p class="text-justify text-medium text-white text-[16px] lg:text-[20px] sm:leading-6 lg:leading-tight md:text-lg mb-5 lg:mb-10 lg:pr-6">
-          Nós sabemos que cada empresa é única e por isso, traçamos estratégias personalizadas para que a sua alcance resultados incríveis na internet. Nossos serviços são focados em criar uma identidade única com personalidade para a sua marca, desenvolver e otimizar sistemas de alta performance, aumentar sua visibilidade e estabelecer uma comunicação direta e eficaz com o seu cliente ideal.
+          Nós sabemos que cada empresa é única e por isso, traçamos estratégias personalizadas para que a sua empresa alcance resultados incríveis na internet. Nossos serviços são focados em criar uma identidade única com personalidade para a sua marca, desenvolver e otimizar sistemas de alta performance, aumentar sua visibilidade e estabelecer uma comunicação direta e eficaz com o seu cliente ideal.
         </p>
       </div>
       <div class="lg:col-span-2 w-full lg:py-0 py-6 mx-auto text-white font-black text-xl flex flex-col mb-5 lg:justify-end justify-evenly">
