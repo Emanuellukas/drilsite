@@ -33,7 +33,7 @@
       </div>
       <div class="flex items-center justify-end">
         <a target="_blank" href="https://www.instagram.com/agenciadril/">
-          <img src="@/assets/images/logo-box-vertical.svg" class="w-full mx-auto"/>
+          <img src="@/assets/images/logo-box-vertical.png" class="lg:w-2/12 w-3/12 mr-0 lg:mx-auto ml-auto"/>
         </a>
       </div>
     </div>

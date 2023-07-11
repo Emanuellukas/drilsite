@@ -4,7 +4,7 @@
       <h1 class="lg:text-7xl text-left text-white lg:mb-7 mb-2 leading-11 lg:leading-tight font-black md:w-11/12 text-[40px]">
           A parceria ideal para sua expansão digital.
       </h1>
-      <p class="lg:text-2xl md:text-xl font-bold text-[20px] leading-7 text-[#B0B0B0] text-left w-full lg:w-10/12 lg:mb-10 mb-3">
+      <p class="lg:text-2xl md:text-xl font-bold text-[20px] leading-7 lg:leading-10 text-[#B0B0B0] text-left w-full lg:w-10/12 lg:mb-10 mb-3">
           Alcance ótimos resultados na internet trabalhando de forma colaborativa com profissionais especializados em dar vida e personalidade para a sua marca, otimizar seus sistemas e aumentar a sua presença digital.
       </p>
       <a href="#form">
@@ -18,7 +18,9 @@
       <!-- <img src="@/assets/images/hero.svg" class="lg:hidden"> -->
     </div>
     <div class="lg:col-span-3 _text-center lg:pt-20 sm:pt-5">
-      <img src="@/assets/images/arrow-down.svg" class="mx-auto cursor-pointer"/>
+      <a href="#servicos">
+        <img src="@/assets/images/arrow-down.svg" class="mx-auto cursor-pointer"/>
+      </a>
     </div>
   </section>
 </template>

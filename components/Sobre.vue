@@ -11,7 +11,7 @@
           <img src="@/assets/images/check.svg" class="mr-2 w-4"/>
           <h3 class="text-[11px] md:text-sm font-bold mb-0 text-[#808080] md:tracking-[1em] tracking-[0.5em]">EQUIPE CAPACITADA</h3>
         </div>
-        <p class="text-justify text-medium text-white lg:text-[20px] text-[16px] sm:leading-6 lg:leading-tight md:text-lg mb-5 lg:mb-10 lg:pr-6">
+        <p class="lg:text-left text-medium text-white lg:text-[20px] text-[18px] leading-7 lg:leading-8 md:text-lg mb-5 lg:mb-10 lg:pr-6">
           Nossa equipe é composta por profissionais altamente capacitados com mais de 14 anos de experiência trabalhando estrategicamente em projeto complexos ao lado de grandes nomes do mercado de marketing digital. Possuímos um histórico de sucesso sempre ajudando a trazer soluções eficazes e inovadoras para a mesa.
         </p>
         <button-cta btnClass="mt-6 mx-auto bg-[#8A00FF] text-lg md:text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50 w-full hidden lg:block">

@@ -15,34 +15,34 @@
             <figure><img class="w-full" src="@/assets/images/catia.jpg" alt="Cátia Damasceno" /></figure>
             <div class="card-body text-black p-3 rounded-b-lg">
               <h6 class="text-xl font-black satoshi-black -mb-2">Cátia Damasceno</h6>
-              <span class="text-sm satoshi font-normal">Influencer Digital</span>
+              <span class="text-sm satoshi font-normal">Influenciadora Digital</span>
             </div>
           </div>
         </div>
         <div class="lg:col-span-7 lg:col-start-6">
-          <p class="depoimento text-xl text-black font-normal mb-4 relative">
-            Estou muito satisfeita com os serviços prestados pela DRIL.
-            É uma agência extremamente profissional e ofereçem serviços de alta qualidade em criação e gerenciamento de sites. Além disso, sua equipe está sempre disponível para ajudar em qualquer momento, o que nos proporciona uma grande tranquilidade. Eu os recomendo altamente como parceiros de negócios para qualquer empresa que precise de serviços de marketing digital.
+          <p class="depoimento text-xl text-black font-normal mb-4 relative text-left">
+            "Estou muito satisfeita com os serviços prestados pela DRIL.
+            É uma agência extremamente profissional e ofereçem serviços de alta qualidade em criação e gerenciamento de sites. Além disso, sua equipe está sempre disponível para ajudar em qualquer momento, o que nos proporciona uma grande tranquilidade. Eu os recomendo altamente como parceiros de negócios para qualquer empresa que precise de serviços de marketing digital.""
           </p>
-          <div class="redes grid lg:grid-cols-4 grid-cols-3 gap-1 text-black mb-8">
-            <div class="flex items-center">
+          <div class="redes grid lg:grid-cols-4 grid-cols-3 gap-1 mb-8">
+            <a href="https://www.youtube.com/@CatiaDamasceno" target="_blank" class="flex items-center cursor-pointer hover:-translate-y-2 transition duration-150 ease-out hover:ease-in hover:text-[#8A00FF] text-black">
               <img src="@/assets/images/yt-gradient-icon.svg" class="mr-2">
               <p class="text-xs leading-none">
                 <b class="text-sm">10 milhões</b> <br/> de inscritos
               </p>
-            </div>
-            <div class="flex items-center">
+            </a>
+            <a href="https://www.instagram.com/catiadamasceno/" target="_blank" class="flex items-center cursor-pointer hover:-translate-y-2 transition duration-150 ease-out hover:ease-in hover:text-[#8A00FF] text-black">
               <img src="@/assets/images/ig-gradient-icon.svg" class="mr-2">
               <p class="text-xs leading-none">
                 <b class="text-sm">8 milhões</b> <br/> de inscritos
               </p>
-            </div>
-            <div class="flex items-center">
+            </a>
+            <a href="https://www.tiktok.com/@catiadamascenooficial" target="_blank" class="flex items-center cursor-pointer hover:-translate-y-2 transition duration-150 ease-out hover:ease-in hover:text-[#8A00FF] text-black">
               <img src="@/assets/images/tk-gradient-icon.svg" class="mr-2">
               <p class="text-xs leading-none">
                 <b class="text-sm">8 milhões</b> <br/> de inscritos
               </p>
-            </div>
+            </a>
           </div>
           <a href="#form">
             <ButtonCta btnClass="lg:w-9/12 w-full bg-[#8A00FF] text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50">
@@ -77,18 +77,22 @@
   .title-client::before {
     content: '';
     position: absolute;
-    width: 20vw;
     height: 4px;
     top: -0.8rem;
     border-radius: 15px;
-    left: 40vw;
+    width: 15vw;
+    left: 50%;
+    transform: translate(-50%, 0);
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
+  }
+
+  .redes a:hover {
+    fill: #8A00FF !important;
   }
 
   @media (max-width: 700px) {
     .title-client::before {
       width: 24vw;
-      left: 22vw;
     }
   }
 </style>

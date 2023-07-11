@@ -6,7 +6,7 @@
       <img src="@/assets/images/trafego-purple-icon.svg" v-show="data.icons.includes('tr')">
     </div>
     <div class="card-body p-2 text-center flex">
-      <p class="mx-auto my-auto lg:text-base text-sm font-medium flex leading-tight" v-html="data.title"/>
+      <p class="mx-auto my-auto lg:text-base text-sm font-bold flex leading-tight" v-html="data.title"/>
     </div>
   </div>
 </template>

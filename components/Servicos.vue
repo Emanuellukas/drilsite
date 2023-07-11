@@ -14,7 +14,7 @@
           <img src="@/assets/images/check.svg" class="mr-2 w-4"/>
           <h3 class="text-[11px] md:text-sm font-bold mb-0 text-[#808080] md:tracking-[1em] tracking-[0.5em]">RESULTADOS REAIS</h3>
         </div>
-        <p class="text-justify text-medium text-white text-[16px] lg:text-[20px] sm:leading-6 lg:leading-tight md:text-lg mb-5 lg:mb-10 lg:pr-6">
+        <p class="text-center lg:text-left text-medium text-white text-[18px] lg:text-[20px] leading-7 lg:leading-8 md:text-lg mb-5 lg:mb-10 lg:pr-6">
           Nós sabemos que cada empresa é única e por isso, traçamos estratégias personalizadas para que a sua empresa alcance resultados incríveis na internet. Nossos serviços são focados em criar uma identidade única com personalidade para a sua marca, desenvolver e otimizar sistemas de alta performance, aumentar sua visibilidade e estabelecer uma comunicação direta e eficaz com o seu cliente ideal.
         </p>
       </div>
