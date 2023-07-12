@@ -19,7 +19,7 @@
     </div>
     <div class="lg:col-span-3 _text-center lg:pt-20 sm:pt-5">
       <a href="#servicos">
-        <img src="@/assets/images/arrow-down.svg" class="mx-auto cursor-pointer"/>
+        <img src="@/assets/images/arrow-down.svg" class="mx-auto cursor-pointer hover:-translate-y-2 transition duration-150 ease-out hover:ease-in"/>
       </a>
     </div>
   </section>

@@ -19,16 +19,16 @@
         </p>
       </div>
       <div class="lg:col-span-2 w-full lg:py-0 py-6 mx-auto text-white font-black text-xl flex flex-col mb-5 lg:justify-end justify-evenly">
-        <div class="flex items-center mb-3 px-6 justify-between rounded-lg border-2 py-3">
-          <img src="@/assets/images/design-icon.svg" class="setor-icon">
+        <div class="flex items-center mb-3 px-6 justify-between rounded-lg border-2 py-3 setor-icon">
+          <img src="@/assets/images/design-icon.svg">
           <span class="font-bold">Design</span>
         </div>
-        <div class="flex items-center mb-3 px-6 justify-between rounded-lg border-2 py-3">
-          <img src="@/assets/images/engine-icon.svg" class="setor-icon">
+        <div class="flex items-center mb-3 px-6 justify-between rounded-lg border-2 py-3 setor-icon">
+          <img src="@/assets/images/engine-icon.svg">
           <span class="font-bold">Desenvolvimento</span>
         </div>
-        <div class="flex items-center mb-3 px-6 justify-between rounded-lg border-2 py-3">
-          <img src="@/assets/images/trafego-icon.svg" class="setor-icon">
+        <div class="flex items-center mb-3 px-6 justify-between rounded-lg border-2 py-3 setor-icon">
+          <img src="@/assets/images/trafego-icon.svg">
           <span class="font-bold">Gestão de Tráfego</span>
         </div>
       </div>
@@ -88,5 +88,9 @@
   position: absolute;
   left: -23%;
   transition-duration: .3s;
+}
+
+.setor-icon {
+  background: linear-gradient(198deg, #010101 0%, #3C3C3C 100%);
 }
 </style>

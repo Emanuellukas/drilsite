@@ -31,11 +31,7 @@
           </a>
         </div>
       </div>
-      <div class="flex items-center justify-end">
-        <a target="_blank" href="https://www.instagram.com/agenciadril/">
-          <img src="@/assets/images/logo-box-vertical.png" class="lg:w-2/12 w-3/12 mr-0 lg:mx-auto ml-auto"/>
-        </a>
-      </div>
+      <img src="@/assets/images/logo-box-vertical.png" class="lg:w-1/12 lg:ml-0 ml-auto w-3/12"/>
     </div>
   </footer>
 </template>

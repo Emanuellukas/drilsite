@@ -20,9 +20,9 @@
           </div>
         </div>
         <div class="lg:col-span-7 lg:col-start-6">
-          <p class="depoimento text-xl text-black font-normal mb-4 relative text-left">
-            "Estou muito satisfeita com os serviços prestados pela DRIL.
-            É uma agência extremamente profissional e ofereçem serviços de alta qualidade em criação e gerenciamento de sites. Além disso, sua equipe está sempre disponível para ajudar em qualquer momento, o que nos proporciona uma grande tranquilidade. Eu os recomendo altamente como parceiros de negócios para qualquer empresa que precise de serviços de marketing digital."
+          <p class="depoimento text-xl text-black font-normal mb-4 relative text-left italic">
+            "Estou mais que satisfeita com os serviços prestados pela DRIL.
+            É uma agência profissional que oferece serviços de alta qualidade e capricho, da criação e gerenciamento dos meus sites, ao suporte técnico especializado. Além disso, a equipe está sempre disponível para ajudar a qualquer momento, o que proporcionou a tranquilidade que eu precisava. Eu os recomendo altamente como parceiros para qualquer empresa que precise de serviços de marketing e posicionamento digital."
           </p>
           <div class="redes grid lg:grid-cols-4 grid-cols-3 gap-1 mb-8">
             <a href="https://www.youtube.com/@CatiaDamasceno" target="_blank" class="flex items-center cursor-pointer hover:-translate-y-2 transition duration-150 ease-out hover:ease-in hover:text-[#8A00FF] text-black">
@@ -56,17 +56,6 @@
   </section>
 </template>
 <style>
-  /*.clientes p.depoimento:before {
-    content: '';
-    width: 5px;
-    height: 100%;
-    border-radius: 2px;
-    position: absolute;
-    left: -1rem;
-    top: 0rem;
-    background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
-  } */
-
   .clientes .logo {
     position: absolute;
     right: -10rem;

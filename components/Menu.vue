@@ -1,5 +1,5 @@
 <template>
-  <div class="menu container mx-auto flex flex-row justify-between satoshi mx-auto lg:py-20 lg:px-12 px-7 py-10">
+  <div class="menu container mx-auto flex flex-row justify-between satoshi mx-auto lg:py-20 lg:px-12 px-6 py-10">
     <a href="/" class="flex"><img src="@/assets/images/logo.png" class="my-auto logo-menu"></a>
     <div class="text-xl text-white justify-evenly w-7/12 items-center font-lighter hidden md:flex">
       <a :href="'#' + menu.route" class="menu-item cursor-pointer relative" v-for="(menu, index) in useMenu().value" :key="index">{{ menu.label }}</a>

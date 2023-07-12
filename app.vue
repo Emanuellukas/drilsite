@@ -1,5 +1,7 @@
 <template>
   <div class="relative scroll-smooth" style="z-index: 0">
+    <div class="background"></div>
+    <!-- <div class="background right"></div> -->
     <Menu />
     <Topo />
     <Servicos />
@@ -90,6 +92,24 @@ export default defineNuxtComponent({
     background: linear-gradient(2deg, #AA00FF 6.93%, #4300F1 109.99%);
   }
 
+  .background {
+    width: 425px;
+    height: 515px;
+    position: absolute;
+    left: -20rem;
+    top: 100vh;
+    z-index: -1;
+    border-radius: 515px;
+    background: #404040;
+    filter: blur(300px);
+  }
+
+  .background.right {
+    right: -20rem;
+    top: 150vh;
+    left: unset;
+  }
+
   @media (max-width: 890px) {
     .title h2:before {
       left: 34%;
@@ -102,6 +122,10 @@ export default defineNuxtComponent({
 
     .title h2 {
       text-align: center;
+    }
+
+    .background {
+      top: 50vh;
     }
   }
 </style>
