@@ -22,7 +22,7 @@
         <div class="lg:col-span-7 lg:col-start-6">
           <p class="depoimento text-xl text-black font-normal mb-4 relative text-left">
             "Estou muito satisfeita com os serviços prestados pela DRIL.
-            É uma agência extremamente profissional e ofereçem serviços de alta qualidade em criação e gerenciamento de sites. Além disso, sua equipe está sempre disponível para ajudar em qualquer momento, o que nos proporciona uma grande tranquilidade. Eu os recomendo altamente como parceiros de negócios para qualquer empresa que precise de serviços de marketing digital.""
+            É uma agência extremamente profissional e ofereçem serviços de alta qualidade em criação e gerenciamento de sites. Além disso, sua equipe está sempre disponível para ajudar em qualquer momento, o que nos proporciona uma grande tranquilidade. Eu os recomendo altamente como parceiros de negócios para qualquer empresa que precise de serviços de marketing digital."
           </p>
           <div class="redes grid lg:grid-cols-4 grid-cols-3 gap-1 mb-8">
             <a href="https://www.youtube.com/@CatiaDamasceno" target="_blank" class="flex items-center cursor-pointer hover:-translate-y-2 transition duration-150 ease-out hover:ease-in hover:text-[#8A00FF] text-black">
