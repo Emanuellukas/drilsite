@@ -8,8 +8,9 @@ export const useMenu = () => useState('menu', () => [
   }, {
     label: 'Sobre Nós',
     route: 'sobre',
-  }, {
-    label: 'Fale Conosco',
-    route: 'form'
   }
+  // , {
+  //   label: 'Fale Conosco',
+  //   route: 'form'
+  // }
 ]);

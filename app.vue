@@ -1,5 +1,5 @@
 <template>
-  <div class="relative scroll-smooth" style="z-index: 0">
+  <div class="relative" style="z-index: 0">
     <div class="background"></div>
     <!-- <div class="background right"></div> -->
     <Menu />
@@ -58,6 +58,10 @@ export default defineNuxtComponent({
       font-family: "Satoshi";
       src: url(./public/fonts/Satoshi-Medium.otf) format("truetype");
       font-weight: 500;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {

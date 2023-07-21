@@ -11,10 +11,10 @@
           <img src="@/assets/images/check.svg" class="mr-2 w-4"/>
           <h3 class="text-[11px] md:text-sm font-bold mb-0 text-[#808080] md:tracking-[1em] tracking-[0.5em]">EQUIPE CAPACITADA</h3>
         </div>
-        <p class="lg:text-left text-medium text-white lg:text-[20px] text-[18px] leading-7 lg:leading-8 md:text-lg mb-5 lg:mb-10 lg:pr-6">
+        <p class="lg:text-left text-medium text-white lg:text-[20px] text-[18px] leading-7 lg:leading-8 md:text-lg mb-4 lg:mb-10 lg:pr-6">
           Nossa equipe é composta por profissionais altamente capacitados com mais de 14 anos de experiência trabalhando estrategicamente em projetos complexos ao lado de grandes nomes do mercado de marketing digital. Possuímos um histórico de sucesso sempre ajudando a trazer soluções eficazes e inovadoras para a mesa.
         </p>
-        <button-cta btnClass="mt-6 mx-auto bg-[#8A00FF] text-lg md:text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50 w-full hidden lg:block">
+        <button-cta btnClass="mt-6 mr-auto bg-[#8A00FF] text-lg md:text-2xl text-white normal-case shadow-lg hover:shadow-[#8A00FF]/50 w-full hidden lg:block">
           Fale com a nossa equipe
         </button-cta>
       </div>
@@ -22,7 +22,7 @@
         <div v-for="(a, index) in equipe" :key="index" class="rounded-lg flex flex-col justify-end items-center bg-gradient-to-b from-[#A6A6A6] to-[#5A5A5A] shadow-2xl text-center h-[200px] md:h-[244px]">
           <img :src="'/'+a.img" alt="funcionario" class=" md:h-[154px] h-[130px]"/>
           <div class="card-body rounded-b-lg w-full text-[#404040] p-1 md:p-3  bg-white">
-            <h6 class="text-[12px] md:text-xl font-black -mb-2">{{ a.name }}</h6>
+            <h6 class="text-[1rem] md:text-xl font-black -mb-2">{{ a.name }}</h6>
             <span class="text-[10px] md:text-sm satoshi font-medium">{{ a.func }}</span>
           </div>
         </div>

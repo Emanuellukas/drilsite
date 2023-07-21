@@ -33,8 +33,8 @@
         </div>
       </div>
       <div class="mx-auto w-full lg:col-span-5 mb-4">
-        <div class="grid lg:grid-cols-4 grid-cols-2 gap-3">
-          <CardServico v-for="(card, index) in servicos" :key="index" :data="card"/>
+        <div class="grid lg:grid-cols-4 grid-cols-2 gap-3 relative">
+          <CardServico v-for="(card, index) in servicos" :key="index" :data="card" @click="activeCard(index)"/>
         </div>
       </div>
       <div class="mt-10 lg:col-span-5">
@@ -51,19 +51,27 @@
     data() {
       return {
         servicos: [
-          { icons: ['dg'], title: 'Criação de logotipo <br/> e identidade visual'},
-          { icons: ['dg', 'tr'], title: 'Anúncios <br/> patrocinados'},
-          { icons: ['dg', 'tr'], title: 'Pacotes de criativos <br/> para redes sociais'},
-          { icons: ['dg', 'tr'], title: 'Pacote de criativos <br/> para anúncios'},
-          { icons: ['ds', 'tr'], title: 'Gestão de SEO'},
-          { icons: ['dg', 'ds'], title: 'Criação de <br/> aplicativos'},
-          { icons: ['dg', 'tr'], title: 'Criação de perfil estratégico para <br/> redes sociais'},
-          { icons: ['dg', 'tr'], title: 'Gestão de redes <br/> sociais'},
-          { icons: ['dg', 'ds'], title: 'Criação de sistemas personalizados'},
-          { icons: ['ds', 'tr'], title: 'Perfil da empresa no Google'},
-          { icons: ['dg', 'ds'], title: 'Criação de websites'},
-          { icons: ['ds'], title: 'Hospedagem de websites'},
+          { icons: ['dg'], title: 'Criação de logotipo <br/> e identidade visual', active: false},
+          { icons: ['dg', 'tr'], title: 'Anúncios <br/> patrocinados', active: false},
+          { icons: ['dg', 'tr'], title: 'Pacotes de criativos <br/> para redes sociais', active: false},
+          { icons: ['dg', 'tr'], title: 'Pacote de criativos <br/> para anúncios', active: false},
+          { icons: ['ds', 'tr'], title: 'Gestão de SEO', active: false},
+          { icons: ['dg', 'ds'], title: 'Criação de <br/> aplicativos', active: false},
+          { icons: ['dg', 'tr'], title: 'Criação de perfil estratégico para redes sociais', active: false},
+          { icons: ['dg', 'tr'], title: 'Gestão de redes <br/> sociais', active: false},
+          { icons: ['dg', 'ds'], title: 'Criação de sistemas personalizados', active: false},
+          { icons: ['ds', 'tr'], title: 'Perfil da empresa <br/> no Google', active: false},
+          { icons: ['dg', 'ds'], title: 'Criação de websites', active: false},
+          { icons: ['ds'], title: 'Hospedagem de websites', active: false},
         ]
+      };
+    },
+    methods: {
+      activeCard(current) {
+        this.servicos.forEach((serv, index) => {
+          if(current != index) serv.active = false
+          else serv.active = true
+        });
       }
     }
   }
